@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather App</title>
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
   </head>
   <body>
     <div class="weather-app-container">
@@ -25,14 +26,14 @@
           <div class="hero-container">
             <div class="hero-location">
               <div class="hero-location-icon">📍</div>
-              <h1 class="hero-city-name" id="city">London</h1>
+              <h1 class="hero-city-name" id="city"></h1>
             </div>
             <p class="hero-date">Thur 9th Nov</p>
             <div class="hero-city-temperature">
               <div class="hero-icon">
                 <img src="images/sun_cloud.png" class="hero-weather-img" />
               </div>
-              <div class="hero-number">16</div>
+              <div class="hero-number" id="temperature"></div>
               <div class="hero-symbol">°</div>
               <div class="hero-unit">C</div>
             </div>
