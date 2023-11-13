@@ -1,0 +1,120 @@
+body {
+  background: #f4f4fb;
+  font-family: "Mulish", sans-serif;
+}
+
+.weather-app-container {
+  background: rgba(255, 255, 255, 0.515);
+  max-width: 600px;
+  margin: 45px auto;
+  padding: 30px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  border-radius: 16px;
+  padding: 30px;
+}
+
+header {
+  padding-bottom: 15px;
+}
+
+.search-form-input {
+  width: 80%;
+  background: #f4f4fb;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 15px 20px;
+}
+
+.search-form-button {
+  width: 18%;
+  background: #adb2e6;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 15px 20px;
+}
+
+.weather-app-data {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  color: #525252;
+}
+
+.hero-location {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  align-items: baseline;
+  text-align: center;
+}
+
+.hero-location-icon {
+  font-size: 30px;
+}
+
+.hero-city-name {
+  text-transform: uppercase;
+  font-family: "Bodoni Moda", serif;
+  font-weight: 600;
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+.hero-date {
+  margin: -15px auto 10px;
+
+  font-size: 16px;
+  color: #6b6b6bcc;
+}
+
+.hero-city-temperature {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  width: 50%;
+  margin: 0;
+  gap: 5px;
+}
+
+.hero-weather-img {
+  width: 107px;
+  vertical-align: text-top;
+  align-items: center;
+}
+
+.hero-number {
+  font-size: 88px;
+  font-weight: 500;
+  margin: 0 auto;
+}
+
+.hero-symbol {
+  font-size: 35px;
+}
+
+.hero-unit {
+  font-size: 35px;
+  margin-right: 59px;
+}
+
+.child-container {
+  display: flex;
+  gap: 15px;
+  margin: 0 auto 15px;
+  color: #6b6b6bcc;
+  font-size: 14px;
+}
+
+.child-container strong {
+  color: #b24bf3;
+}
