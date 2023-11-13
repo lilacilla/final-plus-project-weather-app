@@ -9,7 +9,7 @@
   <body>
     <div class="weather-app-container">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Enter a city..."
@@ -25,7 +25,7 @@
           <div class="hero-container">
             <div class="hero-location">
               <div class="hero-location-icon">📍</div>
-              <h1 class="hero-city-name">London</h1>
+              <h1 class="hero-city-name" id="city">London</h1>
             </div>
             <p class="hero-date">Thur 9th Nov</p>
             <div class="hero-city-temperature">
@@ -62,5 +62,6 @@
         >
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
