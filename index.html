@@ -6,20 +6,60 @@
     <title>Weather App</title>
   </head>
   <body>
-    <h1>Hello</h1>
-
-    <footer>
-      This project was coded by
-      <a href="https://github.com/lilacilla" target="_blank">Priscilla</a>, is
-      <a
-        href="https://github.com/lilacilla/final-plus-project-weather-app"
-        target="_blank"
-        >open sourced on Github</a
-      >
-      &
-      <a href="https://resilient-dango-8615ad.netlify.app/" target="_blank"
-        >hosted on Netlify</a
-      >
-    </footer>
+    <div class="weather-app-container">
+      <header>
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            required
+            class="search-form-input"
+            id="search-form-input"
+          />
+          <input type="submit" value="Search" class="search-form-button" />
+        </form>
+      </header>
+      <main>
+        <div class="weather-app-data">
+          <div class="hero-container">
+            <div class="hero-location">
+              <div class="hero-location-icon">📍</div>
+              <h1 class="hero-city-name">London</h1>
+            </div>
+            <p class="hero-date">Thur 9th Nov</p>
+            <div class="hero-city-temperature">
+              <div class="hero-icon">
+                <img src="images/sun_cloud.png" class="hero-weather-img" />
+              </div>
+              <div class="hero-number">16</div>
+              <div class="hero-symbol">°</div>
+              <div class="hero-unit">C</div>
+            </div>
+          </div>
+          <div class="child-container">
+            <div><p>Mostly Sunny</p></div>
+            <div>
+              <p>Humidity: <strong>50%</strong></p>
+            </div>
+            <div>
+              <p>Wind: <strong>17km/h</strong></p>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/lilacilla" target="_blank">Priscilla</a>, is
+        <a
+          href="https://github.com/lilacilla/final-plus-project-weather-app"
+          target="_blank"
+          >open sourced on Github</a
+        >
+        &
+        <a href="https://resilient-dango-8615ad.netlify.app/" target="_blank"
+          >hosted on Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
