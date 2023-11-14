@@ -89,6 +89,7 @@ header {
   width: 107px;
   vertical-align: text-top;
   align-items: center;
+  margin: 0 auto;
 }
 
 .hero-number {
@@ -103,7 +104,7 @@ header {
 
 .hero-unit {
   font-size: 35px;
-  margin-right: 59px;
+  margin-right: 54px;
 }
 
 .child-container {
