@@ -3,6 +3,10 @@ body {
   font-family: "Mulish", sans-serif;
 }
 
+a {
+  color: #adb2e6;
+}
+
 .weather-app-container {
   background: rgba(255, 255, 255, 0.515);
   max-width: 600px;
@@ -28,7 +32,7 @@ header {
 
 .search-form-button {
   width: 18%;
-  background: #adb2e6;
+  background: #b24bf3;
   color: #ffffff;
   border: none;
   border-radius: 6px;
@@ -54,8 +58,13 @@ header {
   align-content: center;
   margin: 0 auto;
   flex-wrap: wrap;
-  align-items: baseline;
+  align-items: center;
   text-align: center;
+}
+
+.material-symbols-outlined {
+  font-size: 28px;
+  color: #b24bf3;
 }
 
 .hero-location-icon {
@@ -118,4 +127,36 @@ header {
 
 .child-container strong {
   color: #b24bf3;
+}
+
+.forecast-container {
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.forecast-icon {
+  width: 88px;
+}
+
+.forecast-date {
+  color: #6b6b6bcc;
+}
+
+.forecast-temperature {
+  color: #6b6b6bcc;
+  text-align: center;
+}
+
+.forecast-temperature-min {
+  color: #6b6b6b67;
+}
+
+footer {
+  border-top: 1px solid #f9f7fe;
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
 }
