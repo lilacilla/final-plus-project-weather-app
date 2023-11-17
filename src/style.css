@@ -32,7 +32,7 @@ header {
 
 .search-form-button {
   width: 18%;
-  background: #b24bf3;
+  background: #e35a01;
   color: #ffffff;
   border: none;
   border-radius: 6px;
@@ -64,11 +64,7 @@ header {
 
 .material-symbols-outlined {
   font-size: 28px;
-  color: #b24bf3;
-}
-
-.hero-location-icon {
-  font-size: 30px;
+  color: #e35a01;
 }
 
 .hero-city-name {
@@ -89,7 +85,7 @@ header {
   display: flex;
   flex-direction: row;
   text-align: center;
-  width: 50%;
+  width: 94%;
   margin: 0;
   gap: 5px;
 }
@@ -126,7 +122,7 @@ header {
 }
 
 .child-container strong {
-  color: #b24bf3;
+  color: #e35a01;
 }
 
 .forecast-container {
@@ -154,8 +150,7 @@ header {
 }
 
 footer {
-  border-top: 1px solid #f9f7fe;
-  padding: 30px 0 0 0;
+  padding: 50px 0 0 0;
   text-align: center;
   font-size: 12px;
   color: rgba(0, 0, 0, 0.6);
